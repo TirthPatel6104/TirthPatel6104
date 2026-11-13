@@ -6,17 +6,23 @@
 
 ### [ContextBridge](https://github.com/TirthPatel6104/ContextBridge)
 Your LLM memory shouldn't be locked inside one chat app. ContextBridge extracts memory from ChatGPT and Claude conversations, redacts secrets and PII, and renders prompts for any model, through a CLI, a local dashboard and a Chrome extension.
+
 `Python` `Flask` `FAISS` `SQLite`
+
 **201 offline tests · 93.2% less injected context than the raw transcript · precision@3 76.7%, recall@3 93.3%, MRR 86.7% on its own eval suite**
 
 ### [Substrate](https://github.com/TirthPatel6104/substrate)
 Coding agents forget everything between sessions. Substrate is a local-first MCP server that gives them typed memory, hybrid FTS5 + vector recall, lease-locked task handoff between agents, and a deterministic command-safety gate with no LLM in the loop. Python standard library only.
+
 `Python` `MCP` `SQLite FTS5` `JSON-RPC`
+
 **17 tools · 58 tests · zero network calls by default**
 
 ### Forest Growth & Yield Analytics System
 Client project for the Ontario Ministry of Natural Resources and Forestry (Sept 2025 – Apr 2026). Stand-level basal-area growth models for 13 species and forest-unit groups on real inventory data, with a leakage-aware benchmark of 17 algorithms and conformal prediction intervals.
+
 `FastAPI` `SQLAlchemy 2.0` `React 19` `TypeScript` `PostgreSQL`
+
 **25 REST endpoints · 89 tests · Playwright E2E with accessibility scans · CI quality gates**
 
 ## Skills
